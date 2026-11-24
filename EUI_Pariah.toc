@@ -1,0 +1,31 @@
+## Interface: 16001
+## Title: EUI Pariah
+## Notes: Extra features for EllesmereUI: DoT projection, bag sort locks, nameplate tweaks.
+## Author: Xpariah
+## Version: 1.0.0
+## Category: Miscellaneous
+## IconTexture: Interface\AddOns\EllesmereUI\media\eg-logo.tga
+## Dependencies: EllesmereUI
+## OptionalDeps: EllesmereUINameplates, EllesmereUIBags
+## SavedVariables: EUIPariahDB
+## SavedVariablesPerCharacter: EUIPariahCharDB
+
+Core\Core.lua
+Core\Rows.lua
+
+# Features: Init first where a feature has several files. A new feature is one
+# addon.NewFeature call plus its pages; nothing in Core changes.
+Features\SortLock\Init.lua
+Features\SortLock\Sort.lua
+Features\SortLock\Hook.lua
+Features\SortLock\Options.lua
+
+Features\DotProjection\Init.lua
+Features\DotProjection\Tracker.lua
+Features\DotProjection\Plates.lua
+Features\DotProjection\Options.lua
+
+Features\ThreatPct.lua
+
+# Last: RegisterPlugin is a snapshot, so every page must exist before it runs.
+Core\Register.lua
