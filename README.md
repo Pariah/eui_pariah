@@ -8,4 +8,4 @@ Needs EllesmereUI. Copy the `EUI_Pariah` folder into `World of Warcraft/_forever
 
 ## License
 
-MIT, see [LICENSE](LICENSE). DoT Projection is a port of DoesItDie (MIT, see `Features/DotProjection/LICENSE-DoesItDie`).
+MIT, see [LICENSE](LICENSE). DoT Projection is a port of DoesItDie (MIT), see [THIRD_PARTY.md](THIRD_PARTY.md).
