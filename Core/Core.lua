@@ -22,6 +22,7 @@ local ACCENT_HEX = "0cd29f"
 addon.AREAS = {
     { key = "Nameplates", title = "Nameplates", description = "Extras on top of EllesmereUI's nameplates." },
     { key = "Bags", title = "Bags", description = "Extras for EllesmereUI's bags." },
+    { key = "ActionBars", title = "Action Bars", description = "Extras for EllesmereUI's action and data bars." },
 }
 
 -- areaKey -> { names = { pageName, ... }, byName = { [pageName] = { feature, build } } }

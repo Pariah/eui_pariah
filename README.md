@@ -1,6 +1,6 @@
 # EUI Pariah
 
-Extra features for EllesmereUI on WoW Forever: DoT projection on nameplates, bag sort locks, and nameplate Threat % placement.
+Extra features for EllesmereUI on WoW Forever: DoT projection on nameplates, bag sort locks, nameplate Threat % placement, and a choice of reputation bar text.
 
 ## Install
 
