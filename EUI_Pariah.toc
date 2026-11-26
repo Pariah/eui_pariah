@@ -1,12 +1,12 @@
 ## Interface: 16001
 ## Title: EUI Pariah
-## Notes: Extra features for EllesmereUI: DoT projection, bag sort locks, nameplate tweaks.
+## Notes: Extra features for EllesmereUI: DoT projection, bag sort locks, nameplate tweaks, rep bar text.
 ## Author: Xpariah
 ## Version: 1.0.0
 ## Category: Miscellaneous
 ## IconTexture: Interface\AddOns\EllesmereUI\media\eg-logo.tga
 ## Dependencies: EllesmereUI
-## OptionalDeps: EllesmereUINameplates, EllesmereUIBags
+## OptionalDeps: EllesmereUINameplates, EllesmereUIBags, EllesmereUIActionBars
 ## SavedVariables: EUIPariahDB
 ## SavedVariablesPerCharacter: EUIPariahCharDB
 
@@ -26,6 +26,8 @@ Features\DotProjection\Plates.lua
 Features\DotProjection\Options.lua
 
 Features\ThreatPct.lua
+
+Features\RepText.lua
 
 Features\OpenSlash.lua
 
