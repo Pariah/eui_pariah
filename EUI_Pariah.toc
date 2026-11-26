@@ -27,5 +27,7 @@ Features\DotProjection\Options.lua
 
 Features\ThreatPct.lua
 
+Features\OpenSlash.lua
+
 # Last: RegisterPlugin is a snapshot, so every page must exist before it runs.
 Core\Register.lua
